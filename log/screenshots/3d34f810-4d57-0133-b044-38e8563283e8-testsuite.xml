@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1444026058594" stop="1444026064612">
+  <name>Some usecase 2</name>
+  <title>Some usecase 2</title>
+  <test-cases>
+    <test-case start="1444026058595" stop="1444026059600" status="failed">
+      <name>Some usecase 2 10 cannot be greater than 19</name>
+      <title>Some usecase 2 10 cannot be greater than 19</title>
+      <failure>
+        <message>expected: &gt; 19
+     got:   10</message>
+        <stack-trace>/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/fail_with.rb:29:in `fail_with'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:40:in `handle_failure'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/expectation_target.rb:54:in `to'&#xD;
+/Users/sakib/Desktop/dd/rspec-allure/spec/test_feature_1/some_other_spec.rb:11:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `instance_exec'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `block in with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `block in with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:612:in `run_around_example_hooks_for'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/allure-rspec-0.6.9/lib/allure-rspec/hooks.rb:31:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:174:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:548:in `block in run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:512:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (3 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (2 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/configuration.rb:1526:in `with_suite_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:109:in `block in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/reporter.rb:62:in `report'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:108:in `run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:86:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:70:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:38:in `invoke'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `load'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_feature_1"/>
+        <label name="thread" value="2156059640"/>
+        <label name="host" value="Sakibs-MacBook-Pro.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1444026059601" stop="1444026062606" status="failed">
+      <name>Some usecase 2 4 must not be equal to 5</name>
+      <title>Some usecase 2 4 must not be equal to 5</title>
+      <failure>
+        <message>
+expected #&lt;RSpec::Matchers::BuiltIn::Eql:2183305600&gt; =&gt; #&lt;RSpec::Matchers::BuiltIn::Eql:0x00000104453300 @expected=4&gt;
+     got #&lt;Fixnum:11&gt; =&gt; 5
+
+Compared using equal?, which compares object identity,
+but expected and actual are not the same object. Use
+`expect(actual).to eq(expected)` if you don't care about
+object identity in this example.
+
+</message>
+        <stack-trace>/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/fail_with.rb:29:in `fail_with'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:38:in `handle_failure'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/expectation_target.rb:54:in `to'&#xD;
+/Users/sakib/Desktop/dd/rspec-allure/spec/test_feature_1/some_other_spec.rb:16:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `instance_exec'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `block in with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `block in with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:612:in `run_around_example_hooks_for'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/allure-rspec-0.6.9/lib/allure-rspec/hooks.rb:31:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:174:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:548:in `block in run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:512:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (3 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (2 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/configuration.rb:1526:in `with_suite_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:109:in `block in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/reporter.rb:62:in `report'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:108:in `run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:86:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:70:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:38:in `invoke'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `load'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_feature_1"/>
+        <label name="thread" value="2156059640"/>
+        <label name="host" value="Sakibs-MacBook-Pro.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1444026062606" stop="1444026064612" status="failed">
+      <name>Some usecase 2 should pass</name>
+      <title>Some usecase 2 should pass</title>
+      <failure>
+        <message>
+expected #&lt;RSpec::Matchers::BuiltIn::Eql:2183268840&gt; =&gt; #&lt;RSpec::Matchers::BuiltIn::Eql:0x000001044413d0 @expected=5&gt;
+     got #&lt;Fixnum:11&gt; =&gt; 5
+
+Compared using equal?, which compares object identity,
+but expected and actual are not the same object. Use
+`expect(actual).to eq(expected)` if you don't care about
+object identity in this example.
+
+</message>
+        <stack-trace>/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/fail_with.rb:29:in `fail_with'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:38:in `handle_failure'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-expectations-3.2.0/lib/rspec/expectations/expectation_target.rb:54:in `to'&#xD;
+/Users/sakib/Desktop/dd/rspec-allure/spec/test_feature_1/some_other_spec.rb:21:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `instance_exec'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:177:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `block in with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `block in with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `block in run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:612:in `run_around_example_hooks_for'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/hooks.rb:474:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/allure-rspec-0.6.9/lib/allure-rspec/hooks.rb:31:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:343:in `with_around_example_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:385:in `with_around_and_singleton_context_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example.rb:174:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:548:in `block in run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:544:in `run_examples'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/example_group.rb:512:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (3 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `map'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:110:in `block (2 levels) in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/configuration.rb:1526:in `with_suite_hooks'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:109:in `block in run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/reporter.rb:62:in `report'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:108:in `run_specs'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:86:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:70:in `run'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/lib/rspec/core/runner.rb:38:in `invoke'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/gems/rspec-core-3.2.0/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `load'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'&#xD;
+/Users/sakib/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_feature_1"/>
+        <label name="thread" value="2156059640"/>
+        <label name="host" value="Sakibs-MacBook-Pro.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="feature" value="test_feature_1"/>
+    <label name="thread" value="2156059640"/>
+    <label name="host" value="Sakibs-MacBook-Pro.local"/>
+  </labels>
+</ns2:test-suite>
